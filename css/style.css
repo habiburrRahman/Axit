@@ -1,0 +1,504 @@
+/*********************************
+global css go here 
+*********************************/
+*,ul{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration-line: none;
+}
+li{
+   list-style: none;
+   display: inline-block; 
+}
+/*********************************
+header section go here
+*********************************/
+header{
+    width: 100%;
+    background: #000;
+    padding: 10px 0;
+}
+.nav-link{
+    color:#b3b3b3;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px !important; 
+    position: relative;
+}
+.nav-link:hover{
+    color: #fff;
+}
+/******************************
+banner section go here
+*******************************/
+/******************************
+banner section left side go here
+*******************************/
+.banner_section{
+    width: 100%;
+    background:url(../images/banner_img.png) no-repeat center;
+    background-size: cover;
+    height:100vh;
+}
+.banner_text{
+    height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+.banner_text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 92%;
+    margin: 20px 0;
+}
+.banner_text .line{
+    height: 2px;
+    width: 80px;
+    background: #e6e5e3;
+}
+.banner_text p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 80%;
+    color:#d0d0d0;
+    margin: 30px 0;
+}
+#btn{
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 0px;
+}
+#btn:focus{
+    outline: none;
+}
+/***********************************
+banner section right side go here
+***********************************/
+.banner_form{
+    height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_form .card{
+    border: none;
+}
+.banner_form .card-header{
+    padding: 19px 0px 21px 0px;
+}
+.banner_form .card-header h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px;
+}
+.banner_form .card-header span{
+    color:#ff8b38
+}
+.banner_form .card-body{
+    padding: 25px 20px 10px 20px;
+}
+.banner_form .card-body input{
+width: 100%;
+border: none;
+border-bottom: 1px solid #bdbdbd;
+padding: 0px 0px 10px 10px;
+margin-bottom: 30px;
+}
+.banner_form .card-body input::placeholder{
+    color:#bdbdbd
+}
+.banner_form .card-body input:focus{
+    outline: none;
+}
+.banner_form .card-footer{
+    background:#ff8b38;
+    text-align:center;
+    padding: 14px 0;
+}
+.banner_form .card-footer button{
+    border: none;  
+    background: transparent;
+    color: #fff;
+}
+/******************************
+social media section go here
+*******************************/
+.social_media .row{
+    padding: 25px 0px 10px 0px;
+}
+/**************************
+ left side 
+ *************************/
+.socialmed_text{
+    font-family: 'Open Sans', sans-serif;
+}
+.socialmed_text h5{
+    font-weight: 700;
+}
+.socialmed_text p{
+    font-size: 14px;
+    color: #858585;
+    font-weight: 300;
+}
+/******************************
+right side
+*******************************/
+.social_media{
+    box-shadow: 0px 1px 3px 0px #000000;
+    margin-bottom: 3px;
+}
+.socialmed_list ul{
+   height: 10vh;
+   display: table-cell;
+   vertical-align: middle;
+}
+.socialmed_list li{
+    padding: 0px 18px;
+}
+.socialmed_list ul li a i{
+    font-size: 48px;
+    color: #cccccc;
+}
+
+/*********************** 
+ Tab section go here 
+ ***********************/
+ .Tab_section{
+     padding: 100px 0;
+     background: #F5F5F5;
+ }
+ .col-md-2,.col-md-5,.col-md-4,.col-md-6{
+    padding: 0px;
+}
+.Tab_list{
+    width:60%
+}
+.Tab_list li{
+    list-style: none;
+    background: #333;
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 28px 35px;
+}
+.Tab_list a{
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.Tab_list li:first-child{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #ff8b38;
+}
+.Tab_list li:last-child{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.Tab_text{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin: 0px 50px 0px 0px;
+}
+.Tab_text h5{
+    font-weight: 700;
+    color: #444;
+    margin-bottom:35px;
+}
+.Tab_text p{
+    color: #86878b;
+    line-height: 22px;
+}
+ button{
+    margin-top: 25px;
+    background: #ff8b38;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ff8b38;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+ button:focus{
+    outline: none;
+}
+/*********************** 
+sublist section go here 
+ ***********************/
+.Sublist_section{
+    font-family: 'Open Sans', sans-serif;
+    padding: 100px 0;
+}
+.Sublist_section h5,span,.Standard_section h5{
+    font-weight: 700;
+    text-align: left;
+}
+.line_2{
+    height: 2px;
+    width: 75px;
+    background: #ff8b38;
+    margin: 23px 0px 18px 0px;
+}
+.Sublist_section p{
+    font-size: 14px;
+    color: #86878b;
+}
+.sub_img i{
+    color: #ff8b38;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    text-align: center;
+}
+.subimgntxt{
+    margin: 30px 0px 40px 0px;
+}
+/************************
+Standard section go here 
+************************/
+.Standard_section{
+    font-family: 'Open Sans', sans-serif;
+    background: #F5F5F5;
+    padding: 100px 0;
+}
+.line_2{
+    height: 2px;
+    width: 90px;
+    background: #ff8b38;
+    margin: 23px 0px 18px 0px;
+}
+.Standard_section p{
+    font-size: 14px;
+    color: #86878b;
+}
+/************************
+Service section go here 
+************************/
+.service{
+    width: 100%;
+    padding: 100px 0;
+}
+.service h1,.pricing_section h1,.review_section h1,.contact_section h1,.extra_section h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300 !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+.service_content h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.service .line_2,.pricing_section .line_2,.review_section .line_2,.contact_section .line_2,.extra_section .line_2{
+    margin:20px auto 30px auto;
+    width: 70px;
+}
+.service p,.pricing_section p,.review_section p,.contact_section p,.extra_section p{
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+    text-align: center;
+    font-size: 14px;
+}
+.service_content{
+    text-align: center;
+    margin: 50px 30px;
+}
+.service_content i{
+    font-size: 30px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service_content h5{
+    font-weight: bold;
+    margin: 10px 0px 25px 0px;
+}
+/************************
+Pricing section go here 
+************************/
+.pricing_section{
+    width: 100%;
+    text-align: center;
+    background: #F5F5F5;
+    padding: 100px 0;
+}
+.pro_row{
+    align-items: flex-end;
+    margin: 50px 0px 0px 0px;
+}
+.pricing_section .card{
+    margin-right: 40px;
+    border: none;
+}
+.pricing_section .card-header,.pricing_section .card-body{
+    background: #333333;
+    padding: 20px 0;
+}
+.pricing_section .card-header{
+    border-bottom: 1px solid #F5F5F5;
+}
+.pricing_section .card-header p,.pricing_section .card-body{
+    margin: 0;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.pro{
+    padding-bottom: 0px !important;
+    border-bottom: none !important;
+}
+.pricing_section .card-text h2{
+    font-size: 17px;
+    background: #ff8b38;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.pricing_section .card-body{
+    border-bottom: 5px solid #ff8b38
+}
+.pricing_section .card-body span{
+    font-size: 85px;
+    font-weight: bolder;
+}
+.pricing_section .card-body i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+.pricing_section .card-footer{
+    padding: 0px;
+    background: #fff;
+}
+.pricing_section .card-footer li{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #F5F5F5;
+    color: #A4A5A8;
+    text-transform: uppercase;
+}
+.pricing_section .card-footer li:last-child{
+    border-bottom:none !important;
+}
+/************************
+Review section go here 
+************************/
+.review_section{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+.review_1{
+    margin-top: 40px;
+}
+.review_1 .message{
+    background: #F5F5F5;
+    margin: 0px 20px;
+    text-align: left;
+    padding: 20px;
+    font-style: italic;
+    color: #B7B7BA;
+    border-radius: 3px;
+    position: relative;
+}
+.box_corner{
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    left: 15px;
+    bottom: -15px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.user{
+    margin-top: 30px;
+}
+.user_nam h5{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    color: #444;
+    margin: 10px 0px 0px 0px;
+}
+.extra_section{
+    background: url(../images/extra.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+.extra_section .line_2{
+    background: #fff;
+}
+.extra_section .extra_btn{
+    text-align: center;
+}
+/************************
+Contact section go here 
+************************/
+.contact_section{
+    width: 100%;
+    padding: 100px 0px 80px 0px;
+}
+.contact_form,.contact_form1{
+    margin: 70px 30px 0px 0px;
+}
+.contact_form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #D6D6D6;
+    padding: 0px 0px 5px 10px;
+    margin-bottom: 27px;
+}
+.contact_form input::placeholder{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #CECECE;
+}
+.contact_form1{
+    margin: 70px 0px 0px 30px;
+}
+.contact_form textarea::placeholder{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #CECECE;
+}
+.contact_form1 textarea{
+    border: none;
+    border-bottom: 1px solid #D6D6D6;
+    padding: 0px 0px 0px 10px;
+}
+.contact_button{
+    width: 100%;
+    text-align: center;
+}
+/************************
+Footer section go here 
+************************/
+footer{
+    width: 100%;
+    background: #000;
+    text-align: center;
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.social_list_footer li{
+    padding: 20px;
+}
+.social_list_footer li i{
+    font-size: 25px;
+    color: #CCCCCC;
+}
+
+
